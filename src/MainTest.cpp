@@ -3,6 +3,9 @@
 
 #include "Algorithms.h"
 
+// Сегмент демонстрирующий работу алгоритмов
+
+// Функции-проверки для упрощения множественного вызова одних и тех же функций
 template <typename T>
 void try_to_find(std::vector<T> vec, const int& number)
 {
@@ -20,6 +23,7 @@ void try_to_bfind(int massive[N], const int& number)
 	else std::cout << " not found in massive\n";
 }
 
+// Тестирование алгоритмов с разными входными значениями
 int main()
 {
 	std::cout << "Final test:\n\n";
@@ -57,4 +61,5 @@ int main()
 	try_to_bfind(massive, 20);
 
 	return 0;
+
 }
